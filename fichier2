@@ -1,1 +1,16 @@
-My file 2
+
+#!/usr/bin/env python3
+"""
+Script minimal : génère et affiche un entier aléatoire entre 4 et 1000.
+
+Usage:
+	- Exécuter avec `python3 fichier2` ou rendre exécutable puis `./fichier2`.
+"""
+import random
+
+def main():
+		n = random.randint(4, 1000)
+		print(n)
+
+if __name__ == "__main__":
+		main()
